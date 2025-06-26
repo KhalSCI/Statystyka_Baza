@@ -171,6 +171,51 @@ body {
     color: #667eea;
 }
 
+/* Question Count Selector */
+.question-count-selector {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.question-count-selector h3 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.count-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.count-option {
+    padding: 12px 20px;
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.count-option:hover {
+    border-color: #667eea;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(102, 126, 234, 0.2);
+}
+
+.count-option.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-color: #667eea;
+    color: white;
+    box-shadow: 0 8px 15px rgba(102, 126, 234, 0.4);
+}
+
 /* Game Screen */
 .game-header {
     display: flex;
@@ -468,6 +513,17 @@ body {
     .stats {
         flex-direction: column;
         gap: 20px;
+    }
+    
+    .count-options {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        max-width: 280px;
+    }
+    
+    .count-option {
+        padding: 10px 15px;
+        font-size: 0.9rem;
     }
     
     .results-actions {

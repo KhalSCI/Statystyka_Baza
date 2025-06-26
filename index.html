@@ -29,11 +29,20 @@
                 <div class="info-card">
                     <h3>🎯 Zasady Gry</h3>
                     <ul>
-                        <li>10 losowych pytań</li>
+                        <li>Wybierz liczbę pytań</li>
                         <li>Natychmiastowa informacja zwrotna</li>
                         <li>System punktowy</li>
                         <li>Osiągnięcia do odblokowania</li>
                     </ul>
+                </div>
+                <div class="question-count-selector">
+                    <h3>📝 Liczba pytań</h3>
+                    <div class="count-options">
+                        <button class="count-option active" data-count="5">5 pytań</button>
+                        <button class="count-option" data-count="10">10 pytań</button>
+                        <button class="count-option" data-count="15">15 pytań</button>
+                        <button class="count-option" data-count="20">20 pytań</button>
+                    </div>
                 </div>
             </div>
             <button id="startButton" class="btn btn-primary">🚀 Rozpocznij Quiz</button>
@@ -45,6 +54,10 @@
                 <div class="stat-item">
                     <span class="stat-label">Rozegrane gry:</span>
                     <span id="gamesPlayed" class="stat-value">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Średnia poprawność:</span>
+                    <span id="averageAccuracy" class="stat-value">0%</span>
                 </div>
             </div>
         </div>
@@ -99,6 +112,10 @@
                         <div class="breakdown-item">
                             <span class="breakdown-label">Procent poprawności:</span>
                             <span id="accuracy" class="breakdown-value">0%</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label">Średnia poprawność:</span>
+                            <span id="resultsAverageAccuracy" class="breakdown-value">0%</span>
                         </div>
                     </div>
                 </div>

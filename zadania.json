@@ -593,9 +593,9 @@
       {
         "question": "Jeśli równanie prostej regresji ma postać $y = b_{0} + b_{1}x$ , to dodatnia wartość współczynnika regresji informuje",
         "options": {
-          "a": "o ile wzrośnie wartość jeśli wartość wzrośnie o",
-          "b": "o ile wzrośnie wartość jeśli wzrośnie o 1",
-          "c": "jaka jest wartość jeśli jest równy"
+          "a": "o ile wzrośnie wartość y jeśli wartość x wzrośnie o $$b_{1}$$",
+          "b": "o ile wzrośnie wartość y jeśli x wzrośnie o 1",
+          "c": "jaka jest wartość y jeśli jest równy $$b_{1}$$"
         },
         "correct_answer": "b"
       },
@@ -1103,15 +1103,6 @@
           "c": "wariancje z próby są równe"
         },
         "correct_answer": "b"
-      },
-      {
-        "question": "Niech X będzie dyskretną zmienną losową przyjmującą wartości x , x , x , z prawdopodobieństwami odpowiednio p , p , p przy czym x < x < x oraz p +p +p = 1. Prawdopodobieństwo, że zmienna losowa X przyjmie wartość x jest równe",
-        "options": {
-          "a": "p",
-          "b": "0",
-          "c": "1-p"
-        },
-        "correct_answer": "a"
       },
       {
         "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < σ^2 < U) = 0.90. Wówczas różnica",

@@ -7,6 +7,7 @@ class StatisticsQuizGame {
         this.correctAnswers = 0;
         this.wrongAnswers = 0;
         this.gameStarted = false;
+        this.selectedQuestionCount = 5; // Default to 5 questions
         
         // Game state
         this.gameStats = this.loadGameStats();
@@ -31,6 +32,7 @@ class StatisticsQuizGame {
         this.correctAnswersEl = document.getElementById('correctAnswers');
         this.wrongAnswersEl = document.getElementById('wrongAnswers');
         this.accuracy = document.getElementById('accuracy');
+        this.resultsAverageAccuracy = document.getElementById('resultsAverageAccuracy');
         this.achievementsList = document.getElementById('achievementsList');
         this.playAgainButton = document.getElementById('playAgainButton');
         this.backToMenuButton = document.getElementById('backToMenuButton');
@@ -38,6 +40,10 @@ class StatisticsQuizGame {
         // Stats display
         this.bestScore = document.getElementById('bestScore');
         this.gamesPlayed = document.getElementById('gamesPlayed');
+        this.averageAccuracy = document.getElementById('averageAccuracy');
+        
+        // Question count selector
+        this.countOptions = document.querySelectorAll('.count-option');
         
         this.init();
     }
@@ -85,6 +91,11 @@ class StatisticsQuizGame {
         this.nextButton.addEventListener('click', () => this.nextQuestion());
         this.playAgainButton.addEventListener('click', () => this.startGame());
         this.backToMenuButton.addEventListener('click', () => this.showStartScreen());
+        
+        // Question count selector
+        this.countOptions.forEach(option => {
+            option.addEventListener('click', (e) => this.selectQuestionCount(e.target));
+        });
     }
     
     loadGameStats() {
@@ -94,7 +105,8 @@ class StatisticsQuizGame {
             gamesPlayed: 0,
             totalCorrect: 0,
             totalQuestions: 0,
-            achievements: []
+            achievements: [],
+            averageAccuracy: 0
         };
     }
     
@@ -103,8 +115,28 @@ class StatisticsQuizGame {
     }
     
     updateStatsDisplay() {
-        this.bestScore.textContent = `${this.gameStats.bestScore}/10`;
+        this.bestScore.textContent = `${this.gameStats.bestScore}/${this.selectedQuestionCount}`;
         this.gamesPlayed.textContent = this.gameStats.gamesPlayed;
+        
+        // Calculate and display average accuracy
+        const avgAccuracy = this.gameStats.totalQuestions > 0 
+            ? Math.round((this.gameStats.totalCorrect / this.gameStats.totalQuestions) * 100)
+            : 0;
+        this.averageAccuracy.textContent = `${avgAccuracy}%`;
+    }
+    
+    selectQuestionCount(selectedOption) {
+        // Remove active class from all options
+        this.countOptions.forEach(option => option.classList.remove('active'));
+        
+        // Add active class to selected option
+        selectedOption.classList.add('active');
+        
+        // Update selected question count
+        this.selectedQuestionCount = parseInt(selectedOption.dataset.count);
+        
+        // Update best score display
+        this.updateStatsDisplay();
     }
     
     startGame() {
@@ -114,8 +146,8 @@ class StatisticsQuizGame {
         this.correctAnswers = 0;
         this.wrongAnswers = 0;
         
-        // Select 10 random questions
-        this.currentQuestions = this.getRandomQuestions(10);
+        // Select random questions based on selected count
+        this.currentQuestions = this.getRandomQuestions(this.selectedQuestionCount);
         
         this.showGameScreen();
         this.displayQuestion();
@@ -267,7 +299,7 @@ class StatisticsQuizGame {
         const accuracy = (this.correctAnswers / this.currentQuestions.length) * 100;
         
         // Perfect score achievement
-        if (this.correctAnswers === 10 && !this.gameStats.achievements.includes('perfect')) {
+        if (this.correctAnswers === this.selectedQuestionCount && !this.gameStats.achievements.includes('perfect')) {
             achievements.push({
                 id: 'perfect',
                 icon: '🏆',
@@ -352,6 +384,12 @@ class StatisticsQuizGame {
         this.correctAnswersEl.textContent = this.correctAnswers;
         this.wrongAnswersEl.textContent = this.wrongAnswers;
         this.accuracy.textContent = `${accuracy}%`;
+        
+        // Update average accuracy in results
+        const avgAccuracy = this.gameStats.totalQuestions > 0 
+            ? Math.round((this.gameStats.totalCorrect / this.gameStats.totalQuestions) * 100)
+            : 0;
+        this.resultsAverageAccuracy.textContent = `${avgAccuracy}%`;
         
         // Show achievements
         this.achievementsList.innerHTML = '';
