@@ -93,7 +93,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Jeżeli $X_{1},...,X_{n}$ jest dużą próbą z rozkładu (niekoniecznie normalnego) z wartością oczekiwaną µ i odchyleniem standardowym σ, to średnia z próby $\\frac{1}{n}(X_{1}+\\cdot\\cdot\\cdot+X_{n})$",
+        "question": "Jeżeli $X_{1},...,X_{n}$ jest dużą próbą z rozkładu (niekoniecznie normalnego) z wartością oczekiwaną µ i odchyleniem standardowym σ, to średnia z próby 1/n * $X_{1}+...+X_{n}$",
         "options": {
           "a": "ma rozkład $N(0,1)$",
           "b": "ma rozkład $N(\\mu,\\sigma/\\sqrt{n})$",
@@ -120,16 +120,16 @@
         "correct_answer": "a"
       },
       {
-        "question": "Niech X będzie dyskretną zmienną losową przyjmującą wartości x, x, x, z prawdopodobieństwami odpowiednio p, p, p przy czym x < x < x oraz p +p +p = 1. Prawdopodobieństwo, że zmienna losowa X przyjmie wartość x jest równe",
+        "question": "Niech X będzie dyskretną zmienną losową przyjmującą wartości x1, x2, x3, z prawdopodobieństwami odpowiednio p1, p2, p3 przy czym x1 < x2 < x3 oraz p1 +p2 +p3 = 1. Prawdopodobieństwo, że zmienna losowa X przyjmie wartość x3 jest równe",
         "options": {
           "a": "1-p",
-          "b": "p",
+          "b": "p3",
           "c": "0"
         },
         "correct_answer": "b"
       },
       {
-        "question": "Niech będzie 98% przedziałem ufności dla . Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 98% przedział",
+        "question": "Niech (L,U) będzie 98% przedziałem ufności dla µ  . Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 98% przedział (L,U)",
         "options": {
           "a": "pokrywa prawdziwą wartość średniej populacyjnej",
           "b": "pokrywa prawdziwą wartość proporcji populacyjnej",
@@ -174,11 +174,11 @@
         "correct_answer": "c"
       },
       {
-        "question": "Jeżeli jest próbą z rozkładu normalnego z wartością oczekiwaną i odchyleniem standardowym , to średnia",
+        "question": "Jeżeli $X_{1},...,x_{N}$ jest próbą z rozkładu normalnego z wartością oczekiwaną µ i odchyleniem standardowym σ, to średnia $1/n * $X_{1}+...+X_{N}$",
         "options": {
-          "a": "ma rozkład",
-          "b": "ma rozkład",
-          "c": "ma asymptotyczny rozkład"
+          "a": "ma rozkład $N(\\mu,\\sigma/\\sqrt{n})$",
+          "b": "ma rozkład N(0,1)",
+          "c": "ma asymptotyczny rozkład $N(\\mu,\\sigma/\\sqrt{n})$"
         },
         "correct_answer": "a"
       },
@@ -201,16 +201,16 @@
         "correct_answer": "c"
       },
       {
-        "question": "Jeśli równanie prostej regresji ma postać , to ujemna wartość współczynnika regresji informuje",
+        "question": "Jeśli równanie prostej regresji ma postać $y = b_{0} + b_{1}x$ , to ujemna wartość współczynnika regresji $b_{1}$ informuje",
         "options": {
-          "a": "jaka jest wartość dla równego",
-          "b": "o ile wzrośnie wartość jeśli wartość zmaleje o",
-          "c": "o ile zmaleje wartość jeśli wartość wzrośnie o 1"
+          "a": "jaka jest wartość y dla x równego b1",
+          "b": "o ile wzrośnie wartość y jeśli wartość x zmaleje o b1",
+          "c": "o ile zmaleje wartość y jeśli wartość x wzrośnie o 1"
         },
         "correct_answer": "c"
       },
       {
-        "question": "Zbiór wartości, który z prawdopodobieństwem pokrywa prawdziwą wartość nieznanego parametru populacji to",
+        "question": "Zbiór wartości, który z prawdopodobieństwem (1-$$\\alfa$$ pokrywa prawdziwą wartość nieznanego parametru populacji to",
         "options": {
           "a": "przedział ufności",
           "b": "obszar krytyczny",
@@ -219,7 +219,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Hipoteza postaci dotyczy testowania",
+        "question": "Hipoteza postaci $$H_0: \\sigma^2 = 0.9 \\quad H_1: \\sigma^2 \\neq 0.9$$ dotyczy testowania",
         "options": {
           "a": "poziomu istotności",
           "b": "wariancji populacyjnej",
@@ -228,7 +228,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Niech będzie funkcją prawdopodobieństwa ciągłej zmiennej losowej i niech będzie jej dystrybuantą. Wówczas obliczymy wg wzoru",
+        "question": "Niech f(x) będzie funkcją prawdopodobieństwa ciągłej zmiennej losowej X i niech F(x) będzie jej dystrybuantą. Wówczas P(a < X < b) obliczymy wg wzoru",
         "options": {
           "a": "f(b) - f(a)",
           "b": "F(b) - F(a)",
@@ -258,7 +258,7 @@
         "question": "Załóżmy, że interesuje nas porównanie rozkładu szybkości rozwiązywania 4 zadań, przy czym każde zadanie rozwiązywane jest przez każdego studenta w losowej kolejności. Którego testu użyjemy?",
         "options": {
           "a": "testu Spearmana",
-          "b": "testu Friedmana",
+          "b": "testu $F_{r}$ Friedmana",
           "c": "testu H Kruskala-Wallisa"
         },
         "correct_answer": "b"
@@ -270,7 +270,7 @@
           "b": "przedziały pokryły cały zbiór wartości, przy czym mogą pojawić się przedziały o zerowej liczebności",
           "c": "przedziały były rozłączne, przy czym mogą pojawić się przedziały o zerowej liczebności"
         },
-        "correct_answer": "b"
+        "correct_answer": "a"
       },
       {
         "question": "Analiza wariancji (ANOVA) służy do testowania hipotezy zerowej o równości",
@@ -340,15 +340,7 @@
   {
     "testName": "test - IV",
     "questions": [
-      {
-        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < < U) = 0.90. Wówczas różnica",
-        "options": {
-          "a": "jest długością 90% przedziału ufności dla wariancji populacyjnej",
-          "b": "z ufnością 90% pokrywa prawdziwą wartość wariancji populacyjnej",
-          "c": "jest 90% przedziałem ufności dla wariancji populacyjnej"
-        },
-        "correct_answer": "a"
-      },
+
       {
         "question": "Próba",
         "options": {
@@ -365,10 +357,10 @@
           "b": "przedziały pokryły cały zbiór wartości, przy czym mogą pojawić się przedziały o zerowej liczebności",
           "c": "przedziały były rozłączne, przy czym mogą pojawić się przedziały o zerowej liczebności"
         },
-        "correct_answer": "b"
+        "correct_answer": "a"
       },
       {
-        "question": "Notacji użyjemy do zapisu",
+        "question": "Notacji H0 : p ≤ 0.9 H1 : p > 0.9 użyjemy do zapisu",
         "options": {
           "a": "hipotezy prawostronnej o proporcji populacyjnej",
           "b": "hipotezy prawostronnej o proporcji z próby",
@@ -376,15 +368,7 @@
         },
         "correct_answer": "a"
       },
-      {
-        "question": "Jeśli równanie prostej regresji ma postać , to wartość współczynnika regresji informuje",
-        "options": {
-          "a": "o ile wzrośnie wartość jeśli wartość wzrośnie o",
-          "b": "o ile wzrośnie wartość jeśli wzrośnie o 1",
-          "c": "jaka jest wartość jeśli jest równy"
-        },
-        "correct_answer": "b"
-      },
+
       {
         "question": "Rozważmy eksperyment, w którym badana jest liczba niedopełnionych puszek w zależności od automatu napełniającego (jest 6 automatów). Eksperymentator zauważył, że z upływem czasu ilość napoju w puszce maleje, niezależnie od tego, który automat je napełnia. Zatem założenie o normalności rozkładu liczby niedopełnionych puszek nie ma sensu. Którego testu użyć do sprawdzenia, czy wybór automatu ma wpływ na liczbę niedopełnionych puszek?",
         "options": {
@@ -429,15 +413,6 @@
           "c": "dowolną nieujemną funkcją taką, że pole obszaru między funkcją gęstości a osią OX jest równe 1"
         },
         "correct_answer": "c"
-      },
-      {
-        "question": "Jeżeli jest próbą z rozkładu normalnego ze średnią i odchyleniem standardowym , to suma",
-        "options": {
-          "a": "ma rozkład",
-          "b": "ma asymptotyczny rozkład",
-          "c": "ma asymptotyczny rozkład"
-        },
-        "correct_answer": "a"
       },
       {
         "question": "Liczba przedziałów w szeregu rozdzielczym",
@@ -553,7 +528,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, ze P(L < < U) = 0.99%. Wówczas, z ufnością 99% przedział pokrywa prawdziwą wartość",
+        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, ze P(L < µ < U) = 0.99%. Wówczas, z ufnością 99% przedział pokrywa prawdziwą wartość",
         "options": {
           "a": "średniej populacyjnej",
           "b": "średniej z próby",
@@ -580,7 +555,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Trzeci kwartyl, oznaczany zwykle przez Q : (CZYTAJ UWAŻNIE!)",
+        "question": "Trzeci kwartyl, oznaczany zwykle przez Q3 : (CZYTAJ UWAŻNIE!)",
         "options": {
           "a": "oddziela 75% obserwacji wyższych od siebie od 25% obserwacji niższych od siebie",
           "b": "oddziela 50% obserwacji wyższych od siebie od 50% obserwacji niższych od siebie",
@@ -616,7 +591,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Jeśli równanie prostej regresji ma postać , to dodatnia wartość współczynnika regresji informuje",
+        "question": "Jeśli równanie prostej regresji ma postać $y = b_{0} + b_{1}x$ , to dodatnia wartość współczynnika regresji informuje",
         "options": {
           "a": "o ile wzrośnie wartość jeśli wartość wzrośnie o",
           "b": "o ile wzrośnie wartość jeśli wzrośnie o 1",
@@ -634,9 +609,9 @@
         "correct_answer": "a"
       },
       {
-        "question": "Niech X będzie dyskretną zmienną losową przyjmującą wartości x , x , x , z prawdopodobieństwami odpowiednio p , p , p przy czym x < x < x oraz p +p +p = 1. Prawdopodobieństwo, że zmienna losowa X przyjmie wartość x jest równe",
+        "question": "Niech X będzie dyskretną zmienną losową przyjmującą wartości x1 , x2 , x3 , z prawdopodobieństwami odpowiednio p1 , p2 , p3 przy czym x1 < x2 < x3 oraz p1 +p2 +p3 = 1. Prawdopodobieństwo, że zmienna losowa X przyjmie wartość x3 jest równe",
         "options": {
-          "a": "p",
+          "a": "p3",
           "b": "1-p",
           "c": "0"
         },
@@ -661,7 +636,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Niech będzie 95% przedziałem ufności dla odchylenia standardowego . Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 95% przedział",
+        "question": "Niech (L,U) będzie 95% przedziałem ufności dla odchylenia standardowego σ. Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 95% przedział (L,U)",
         "options": {
           "a": "pokrywa prawdziwą wartość średniej populacyjnej",
           "b": "pokrywa prawdziwą wartość odchylenia standardowego populacji",
@@ -679,7 +654,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < < U) = 0.90. Wówczas różnica",
+        "question": "Niech L i U będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L <σ^2< U) = 0.90. Wówczas różnica",
         "options": {
           "a": "jest 90% przedziałem ufności dla wariancji populacyjnej",
           "b": "jest długością 90% przedziału ufności dla wariancji populacyjnej",
@@ -733,7 +708,7 @@
         "correct_answer": "c"
       },
       {
-        "question": "Zbiór wartości, który z prawdopodobieństwem pokrywa prawdziwą wartość nieznanego parametru populacji to",
+        "question": "Zbiór wartości, który z prawdopodobieństwem (1-a) pokrywa prawdziwą wartość nieznanego parametru populacji to",
         "options": {
           "a": "obszar krytyczny",
           "b": "poziom ufności",
@@ -787,10 +762,10 @@
         "correct_answer": "a"
       },
       {
-        "question": "Jeżeli jest dużą próbą z rozkładu (niekoniecznie normalnego) z wartością oczekiwaną i odchyleniem standardowym , to suma ma asymptotyczny rozkład",
+        "question": "Jeżeli $X_{1},...,X_{n}$ jest dużą próbą z rozkładu (niekoniecznie normalnego) z wartością oczekiwaną µ i odchyleniem standardowym σ , to suma ma asymptotyczny rozkład",
         "options": {
           "a": "N(μ, σ/ ) n",
-          "b": "N(n ⋅ μ, n ⋅ σ)",
+          "b": "$$N(n \\cdot \\mu, \\sqrt{n} \\cdot \\sigma)$$",
           "c": "N(0, 1)"
         },
         "correct_answer": "b"
@@ -819,7 +794,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, ze P(L < < U) = 0.99%. Wówczas, z ufnością 99% przedział pokrywa prawdziwą wartość",
+        "question": "Niech L i U będą funkcjami zmiennych losowych stanowiących próbę takimi, ze P(L < µ < U) = 0.99%. Wówczas, z ufnością 99% przedział pokrywa prawdziwą wartość",
         "options": {
           "a": "poziom unfości",
           "b": "średniej z próby",
@@ -846,7 +821,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Niech będzie równaniem prostej regresji i niech będzie współczynnikiem korelacji dla populacji. Testując hipotezę o istotności regresji hipoteza alternatywna przyjmuje postać",
+        "question": "Niech y = b0 + $$b_{1}x$$ będzie równaniem prostej regresji i niech $$p_{xy}$$ będzie współczynnikiem korelacji dla populacji. Testując hipotezę o istotności regresji hipoteza alternatywna przyjmuje postać",
         "options": {
           "a": "ρXY = 0",
           "b": "b1 ≠ 0",
@@ -860,15 +835,6 @@
           "a": "hipotezy o dopasowaniu rozkładu liczebności do zadanego wzorca",
           "b": "hipotezy o normalności rozkładu jeśli próba jest mała",
           "c": "hipotezy o niezależności zmiennych losowych (tablica kontyngencji)"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "Niech X będzie dyskretną zmienną losową przyjmującą wartości x , x , x , z prawdopodobieństwami odpowiednio p , p , p przy czym x < x < x oraz p +p +p = 1. Prawdopodobieństwo, że zmienna losowa X przyjmie wartość x jest równe",
-        "options": {
-          "a": "0",
-          "b": "p",
-          "c": "1-p"
         },
         "correct_answer": "b"
       },
@@ -918,7 +884,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Niech będzie funkcją gęstości prawdopodobieństwa ciągłej zmiennej losowej i niech będzie jej dystrybuantą. Wówczas nie może być obliczone ze wzoru",
+        "question": "Niech f(x) będzie funkcją gęstości prawdopodobieństwa ciągłej zmiennej losowej X i niech będzie jej dystrybuantą F(x). Wówczas P(a<X<b) nie może być obliczone ze wzoru",
         "options": {
           "a": "∫ f(x) dx",
           "b": "F(b) − F(a)",
@@ -936,11 +902,11 @@
         "correct_answer": "b"
       },
       {
-        "question": "Jeżeli jest próbą z rozkładu normalnego ze średnią i odchyleniem standardowym , to suma",
+        "question": "Jeżeli X{1},...,X{n} jest próbą z rozkładu normalnego ze średnią u i odchyleniem standardowym o , to suma",
         "options": {
-          "a": "ma rozkład",
-          "b": "ma asymptotyczny rozkład",
-          "c": "ma asymptotyczny rozkład"
+          "a": "ma rozkład N(u,o/√n)",
+          "b": "ma asymptotyczny rozkład N(n ⋅ u, √n ⋅ o)",
+          "c": "ma asymptotyczny rozkład N(u,o/√n)"
         },
         "correct_answer": "a"
       },
@@ -950,15 +916,6 @@
           "a": "ANOVA",
           "b": "H Kruskala-Wallisa",
           "c": "testu Wilcoxona"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "Jeśli równanie prostej regresji ma postać , to ujemna wartość współczynnika regresji informuje",
-        "options": {
-          "a": "o ile wzrośnie wartość jeśli wartość zmaleje o",
-          "b": "o ile zmaleje wartość jeśli wartość wzrośnie o 1",
-          "c": "jaka jest wartość dla równego"
         },
         "correct_answer": "b"
       },
@@ -1067,7 +1024,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Notacji użyjemy do zapisu",
+        "question": "Notacji H0 : μ ≥ 5 H1 : μ < 5 użyjemy do zapisu",
         "options": {
           "a": "hipotezy prawostronnej o średniej populacyjnej",
           "b": "hipotezy lewostronnej o średniej populacyjnej",
@@ -1085,16 +1042,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Jeśli równanie prostej regresji ma postać , to ujemna wartość współczynnika regresji informuje",
-        "options": {
-          "a": "o ile wzrośnie wartość jeśli wartość zmaleje o",
-          "b": "o ile zmaleje wartość jeśli wartość wzrośnie o 1",
-          "c": "jaka jest wartość dla równego"
-        },
-        "correct_answer": "b"
-      },
-      {
-        "question": "Niech będzie 98% przedziałem ufności dla . Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 98% przedział",
+        "question": "Niech (L,U) będzie 98% przedziałem ufności dla µ. Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 98% przedział (L,U)",
         "options": {
           "a": "pokrywa prawdziwą wartość średniej z próby",
           "b": "pokrywa prawdziwą wartość średniej populacyjnej",
@@ -1139,11 +1087,11 @@
         "correct_answer": "a"
       },
       {
-        "question": "Ujemna wartość współczynnika korelacji między zmiennymi i oznacza, że",
+        "question": "Ujemna wartość współczynnika korelacji między zmiennymi X i Y oznacza, że",
         "options": {
           "a": "współczynnik korelacji nie może być ujemny",
           "b": "wartość maleje o wartość współczynnika korelacji jeżeli rośnie o 1",
-          "c": "jeżeli wartość rośnie, to wartość maleje"
+          "c": "jeżeli wartość X rośnie, to wartość Y maleje"
         },
         "correct_answer": "c"
       },
@@ -1166,7 +1114,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < < U) = 0.90. Wówczas różnica",
+        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < σ^2 < U) = 0.90. Wówczas różnica",
         "options": {
           "a": "jest 90% przedziałem ufności dla wariancji populacyjnej",
           "b": "jest długością 90% przedziału ufności dla wariancji populacyjnej",
@@ -1244,7 +1192,7 @@
           "b": "przedziały pokryły cały zbiór wartości, przy czym mogą pojawić się przedziały o zerowej liczebności",
           "c": "przedziały pokryły cały zbiór wartości i nie było przedziałów pustych"
         },
-        "correct_answer": "a"
+        "correct_answer": "c"
       }
     ]
   }

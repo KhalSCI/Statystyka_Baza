@@ -16,8 +16,9 @@ body {
 
 .container {
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .screen {
@@ -225,13 +226,17 @@ body {
 
 .question-text {
     font-size: 1.3rem;
-    line-height: 1.6;
+    line-height: 1.8;
     margin-bottom: 30px;
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    padding: 25px;
     background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
     border-radius: 15px;
     color: #333;
+    min-height: 80px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .options-container {
@@ -471,5 +476,32 @@ body {
     
     .question-text {
         font-size: 1.1rem;
+        padding: 20px;
+        line-height: 1.6;
     }
+}
+
+/* MathJax styling improvements */
+.MathJax {
+    font-size: inherit !important;
+}
+
+.question-text .MathJax {
+    display: inline-block !important;
+    margin: 0.1em 0.2em !important;
+}
+
+/* Better text wrapping for long mathematical expressions */
+.question-text,
+.option {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+/* Ensure MathJax equations don't overflow */
+.MathJax_Display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
 }

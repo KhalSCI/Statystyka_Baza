@@ -156,7 +156,7 @@ class StatisticsQuizGame {
         this.currentScore.textContent = this.score;
         
         // Display question
-        this.questionText.textContent = question.question;
+        this.questionText.innerHTML = question.question;
         
         // Display options
         this.optionsContainer.innerHTML = '';
@@ -165,7 +165,7 @@ class StatisticsQuizGame {
         options.forEach(([key, value]) => {
             const optionElement = document.createElement('div');
             optionElement.className = 'option';
-            optionElement.textContent = `${key.toUpperCase()}) ${value}`;
+            optionElement.innerHTML = `${key.toUpperCase()}) ${value}`;
             optionElement.dataset.answer = key;
             
             optionElement.addEventListener('click', () => this.selectAnswer(key, optionElement));
@@ -175,6 +175,11 @@ class StatisticsQuizGame {
         
         // Hide feedback
         this.feedback.classList.add('hidden');
+        
+        // Re-render MathJax for new content
+        if (window.MathJax && window.MathJax.typesetPromise) {
+            window.MathJax.typesetPromise();
+        }
     }
     
     selectAnswer(selectedAnswer, optionElement) {
