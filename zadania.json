@@ -66,7 +66,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Niech $f(x)$ będzie funkcją prawdopodobieństwa ciągłej zmiennej losowej X i niech $F(x)$ będzie jej dystrybuantą. Wówczas $P(a<X<b)$ obliczymy wg wzoru",
+        "question": "Niech $f(x)$ będzie funkcją prawdopodobieństwa ciągłej zmiennej losowej X i niech $$F(x)$$ będzie jej dystrybuantą. Wówczas $$P(a<X<b)$$ obliczymy wg wzoru",
         "options": {
           "a": "$F(b)-F(a)$",
           "b": "$f(b)-f(a)$",
