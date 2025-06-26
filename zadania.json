@@ -1,0 +1,1251 @@
+[
+  {
+    "testName": "test - V",
+    "questions": [
+      {
+        "question": "Błąd I-go rodzaju popełniamy, gdy",
+        "options": {
+          "a": "odrzucimy prawdziwą hipotezę zerową",
+          "b": "nie odrzucimy prawdziwej hipotezy zerowej",
+          "c": "fałszywa hipoteza zerowa zostanie odrzucona"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Rozważmy eksperyment, w którym badana jest liczba niedopełnionych puszek w zależności od automatu napełniającego (jest 6 automatów). Eksperymentator zauważył, że z upływem czasu ilość napoju w puszce maleje, niezależnie od tego, który automat je napełnia. Zatem założenie o normalności rozkładu liczby niedopełnionych puszek nie ma sensu. Którego testu użyć do sprawdzenia, czy wybór automatu ma wpływ na liczbę niedopełnionych puszek?",
+        "options": {
+          "a": "testu Wilcoxona",
+          "b": "ANOVA",
+          "c": "H Kruskala-Wallisa"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jeżeli $X_{1},...,X_{n}$ jest próbą z rozkładu normalnego ze średnią u i odchyleniem standardowym σ, to suma $X_{1}+...+X_{n}$",
+        "options": {
+          "a": "ma asymptotyczny rozkład $N(\\mu,\\sigma/\\sqrt{n})$",
+          "b": "ma rozkład $N(n\\cdot\\mu,\\sqrt{n}\\cdot\\sigma)$",
+          "c": "ma asymptotyczny rozkład $N(n\\cdot\\mu,\\sqrt{n}\\cdot\\sigma)$"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Załóżmy, że interesuje nas sprawdzenie, czy kolor samochodu ma wpływ na średnią sprzedaż samochodów pewnej marki i modelu (przy czym dostępne są co najmniej 3 kolory). Wówczas najrozsądniejsze jest",
+        "options": {
+          "a": "przeprowadzenie analizy wariancji",
+          "b": "wykorzystanie funkcji t.test dla porównania dwóch średnich populacyjnych",
+          "c": "przeprowadzenie testu chi-kwadrat dotyczący równości dwóch wariancji populacyjnych"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Do testowania hipotezy o normalności rozkładu prawdopodobieństwa populacji możemy użyć",
+        "options": {
+          "a": "funkcji z.test jeśli odchylenie standardowe populacji jest znane",
+          "b": "funkcji chisq.test (po odpowiednim stransformowaniu danych)",
+          "c": "funkcji zsum.test jeśli próba jest duża"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Do weryfikacji hipotezy o dwóch średnich populacyjnych nie użyjemy",
+        "options": {
+          "a": "funkcji zsum.test jeśli próby są duże i pochodzą z rozkładu innego niż normalny",
+          "b": "funkcji var.test",
+          "c": "funkcji t.test jeśli próby pochodzą z rozkładu normalnego"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Ujemna wartość współczynnika korelacji między zmiennymi X i Y oznacza, że",
+        "options": {
+          "a": "regresja liniowa jest nieistotna",
+          "b": "jeśli wartość X rośnie, to wartość Y maleje",
+          "c": "nie ma liniowej zależności między zmiennymi"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Niech $f(x)$ będzie funkcją prawdopodobieństwa ciągłej zmiennej losowej X i niech $F(x)$ będzie jej dystrybuantą. Wówczas $P(a<X<b)$ obliczymy wg wzoru",
+        "options": {
+          "a": "$F(b)-F(a)$",
+          "b": "$f(b)-f(a)$",
+          "c": "$F(a)-F(b)$"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Trzeci kwartyl, oznaczany zwykle przez $Q_{3}$: (CZYTAJ UWAŻNIE!)",
+        "options": {
+          "a": "oddziela 25% obserwacji wyższych od siebie od 75% obserwacji niższych od siebie",
+          "b": "oddziela 50% obserwacji wyższych od siebie od 50% obserwacji niższych od siebie",
+          "c": "oddziela 75% obserwacji wyższych od siebie od 25% obserwacji niższych od siebie"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Niech L i U będą funkcjami zmiennych losowych stanowiących próbę takimi, że $P(L<p<U)=0.95$. Wówczas różnica $(U-L)$ jest",
+        "options": {
+          "a": "długością 95% przedziału ufności dla proporcji z próby",
+          "b": "długością 95% przedziału ufności dla proporcji populacyjnej",
+          "c": "długością 95% przedziału ufności dla średniej populacyjnej"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jeżeli $X_{1},...,X_{n}$ jest dużą próbą z rozkładu (niekoniecznie normalnego) z wartością oczekiwaną µ i odchyleniem standardowym σ, to średnia z próby $\\frac{1}{n}(X_{1}+\\cdot\\cdot\\cdot+X_{n})$",
+        "options": {
+          "a": "ma rozkład $N(0,1)$",
+          "b": "ma rozkład $N(\\mu,\\sigma/\\sqrt{n})$",
+          "c": "ma asymptotyczny rozkład $N(\\mu,\\sigma/\\sqrt{n})$"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Do weryfikacji hipotezy o dwóch proporcjach populacyjnych można wykorzystać funkcję",
+        "options": {
+          "a": "t.test",
+          "b": "binom.test",
+          "c": "prop.test"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Które z poniższych jest statystyką?",
+        "options": {
+          "a": "suma zmiennych losowych stanowiących próbę",
+          "b": "proporcja populacyjna",
+          "c": "średnia populacyjna"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Niech X będzie dyskretną zmienną losową przyjmującą wartości x, x, x, z prawdopodobieństwami odpowiednio p, p, p przy czym x < x < x oraz p +p +p = 1. Prawdopodobieństwo, że zmienna losowa X przyjmie wartość x jest równe",
+        "options": {
+          "a": "1-p",
+          "b": "p",
+          "c": "0"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Niech będzie 98% przedziałem ufności dla . Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 98% przedział",
+        "options": {
+          "a": "pokrywa prawdziwą wartość średniej populacyjnej",
+          "b": "pokrywa prawdziwą wartość proporcji populacyjnej",
+          "c": "pokrywa prawdziwą wartość średniej z próby"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Moda (dominanta)",
+        "options": {
+          "a": "występuje najczęściej w zbiorze obserwacji",
+          "b": "oddziela 75% obserwacji większych od siebie od 25% obserwacji mniejszych od siebie",
+          "c": "jest wartością \"środkową\" w zbiorze obserwacji"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Hipoteza zerowa jest odrzucana, gdy",
+        "options": {
+          "a": "poziom istotności jest niższy niż p-value",
+          "b": "wartość statystyki testowej należy do obszaru krytycznego",
+          "c": "wartość statystyki testowej należy do przedziału ufności"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Załóżmy, że interesuje nas hipoteza, że kolor samochodu pewnej marki i modelu ma wpływ na średnią sprzedaż (liczba kolorów jest większa niż 2). Wówczas nie będziemy",
+        "options": {
+          "a": "testować hipotezy zerowej o równości średnich populacyjnych",
+          "b": "przeprowadzać analizy wariancji",
+          "c": "testować hipotezy zerowej o równości średnich z próby"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Liczba przedziałów w szeregu rozdzielczym",
+        "options": {
+          "a": "jest zawsze równa pierwiastkowi z liczby obserwacji",
+          "b": "nie zależy od wielkości zbioru danych (n)",
+          "c": "zależy od wielkości zbioru danych (n)"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jeżeli jest próbą z rozkładu normalnego z wartością oczekiwaną i odchyleniem standardowym , to średnia",
+        "options": {
+          "a": "ma rozkład",
+          "b": "ma rozkład",
+          "c": "ma asymptotyczny rozkład"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Załóżmy, że po przeprowadzeniu analiza wariancji hipoteza zerowa o równości kilku średnich populacyjnych została odrzucona. Wówczas interesujące jest zazwyczaj wyznaczenie grup jednorodnych. Nie dokonamy tego wykorzystując",
+        "options": {
+          "a": "test Tukeya uczciwych istotnych różnic ( funkcja TukeyHSD)",
+          "b": "przedział ufności dla ilorazu wariancji populacyjnych (funkcja var.test)",
+          "c": "test najmniejszych istotnych różnic (LSD) zaproponowany przez Fishera"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Która z poniższych funkcji nie przyda się do testowania normalności rozkładu prawdopodobieństwa?",
+        "options": {
+          "a": "shapiro.test",
+          "b": "lillie.test",
+          "c": "sigma.test"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jeśli równanie prostej regresji ma postać , to ujemna wartość współczynnika regresji informuje",
+        "options": {
+          "a": "jaka jest wartość dla równego",
+          "b": "o ile wzrośnie wartość jeśli wartość zmaleje o",
+          "c": "o ile zmaleje wartość jeśli wartość wzrośnie o 1"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Zbiór wartości, który z prawdopodobieństwem pokrywa prawdziwą wartość nieznanego parametru populacji to",
+        "options": {
+          "a": "przedział ufności",
+          "b": "obszar krytyczny",
+          "c": "poziom ufności"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Hipoteza postaci dotyczy testowania",
+        "options": {
+          "a": "poziomu istotności",
+          "b": "wariancji populacyjnej",
+          "c": "wariancji z próby"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Niech będzie funkcją prawdopodobieństwa ciągłej zmiennej losowej i niech będzie jej dystrybuantą. Wówczas obliczymy wg wzoru",
+        "options": {
+          "a": "f(b) - f(a)",
+          "b": "F(b) - F(a)",
+          "c": "F(a) - F(b)"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Próba",
+        "options": {
+          "a": "zawiera co najmniej 30 obserwacji",
+          "b": "jest losowa, jeśli zawiera co najwyżej 30 obserwacji",
+          "c": "jest podzbiorem populacji"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Załóżmy, że kowariancja między dwiema zmiennymi losowymi jest równa -0.9. Oznacza to, że",
+        "options": {
+          "a": "spadek wartości jednej zmiennej losowej powoduje wzrost wartości drugiej zmiennej losowej",
+          "b": "istnieje bardzo silny związek liniowy między zmiennymi losowymi",
+          "c": "kowariancja nie może być ujemna"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Załóżmy, że interesuje nas porównanie rozkładu szybkości rozwiązywania 4 zadań, przy czym każde zadanie rozwiązywane jest przez każdego studenta w losowej kolejności. Którego testu użyjemy?",
+        "options": {
+          "a": "testu Spearmana",
+          "b": "testu Friedmana",
+          "c": "testu H Kruskala-Wallisa"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Konstruując szereg rozdzielczy lub histogram należy zwrócić uwagę, aby",
+        "options": {
+          "a": "przedziały pokryły cały zbiór wartości i nie było przedziałów pustych",
+          "b": "przedziały pokryły cały zbiór wartości, przy czym mogą pojawić się przedziały o zerowej liczebności",
+          "c": "przedziały były rozłączne, przy czym mogą pojawić się przedziały o zerowej liczebności"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Analiza wariancji (ANOVA) służy do testowania hipotezy zerowej o równości",
+        "options": {
+          "a": "średnich kilku populacji",
+          "b": "wariancji kilku populacji",
+          "c": "proporcji kilku populacji"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Funkcja gęstości prawdopodobieństwa ciągłej zmiennej losowej jest",
+        "options": {
+          "a": "funkcją nieujemną taką, że pole obszaru między funkcją gęstości i osią OX jest równe 1",
+          "b": "przedstawiona w formie tabeli z wartościami zmiennej losowej w pierwszym wierszu i odpowiadającymi im prawdopodobieństwami w drugim",
+          "c": "dowolna nieujemna funkcja ciągła"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Notacji H0 : μ ≥ 5 H1 : μ < 5 użyjemy do zapisu",
+        "options": {
+          "a": "hipotezy lewostronnej o średniej z próby",
+          "b": "hipotezy prawostronnej o średniej populacyjnej",
+          "c": "hipotezy lewostronnej o średniej populacyjnej"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Testy nieparametryczne bazują na",
+        "options": {
+          "a": "graficznej prezentacji danych",
+          "b": "statystykach obliczanych na podstawie próby i założeniu o normalności rozkładu obserwacji",
+          "c": "rangach obserwacji"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Zbiór wartości statystyki testowej, dla której hipoteza zerowa jest odrzucana, to",
+        "options": {
+          "a": "obszar krytyczny",
+          "b": "przedział ufności",
+          "c": "poziom istotności"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Rozważmy eksperyment, w którym dwóch ekspertów sporządza ranking 10 tancerzy (nr 1 oznacza najlepszego tancerza, nr 10 najsłabszego). Jakiego testu użyjemy do sprawdzenia, czy eksperci różnią się istotnie pod względem opinii o tancerzach?",
+        "options": {
+          "a": "testu Pearsona",
+          "b": "testu Spearmana",
+          "c": "testu Wilcoxona"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Do oceny przedziałowej różnicy proporcji populacyjnych można wykorzystać funkcję",
+        "options": {
+          "a": "var.test",
+          "b": "prop.test",
+          "c": "binom.test"
+        },
+        "correct_answer": "b"
+      }
+    ]
+  },
+  {
+    "testName": "test - IV",
+    "questions": [
+      {
+        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < < U) = 0.90. Wówczas różnica",
+        "options": {
+          "a": "jest długością 90% przedziału ufności dla wariancji populacyjnej",
+          "b": "z ufnością 90% pokrywa prawdziwą wartość wariancji populacyjnej",
+          "c": "jest 90% przedziałem ufności dla wariancji populacyjnej"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Próba",
+        "options": {
+          "a": "zawiera co najmniej 30 obserwacji",
+          "b": "jest losowa, jeśli zawiera co najwyżej 30 obserwacji",
+          "c": "jest podzbiorem populacji"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Konstruując szereg rozdzielczy lub histogram należy zwrócić uwagę, aby",
+        "options": {
+          "a": "przedziały pokryły cały zbiór wartości i nie było przedziałów pustych",
+          "b": "przedziały pokryły cały zbiór wartości, przy czym mogą pojawić się przedziały o zerowej liczebności",
+          "c": "przedziały były rozłączne, przy czym mogą pojawić się przedziały o zerowej liczebności"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Notacji użyjemy do zapisu",
+        "options": {
+          "a": "hipotezy prawostronnej o proporcji populacyjnej",
+          "b": "hipotezy prawostronnej o proporcji z próby",
+          "c": "hipotezy lewostronnej o proporcji z próby"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Jeśli równanie prostej regresji ma postać , to wartość współczynnika regresji informuje",
+        "options": {
+          "a": "o ile wzrośnie wartość jeśli wartość wzrośnie o",
+          "b": "o ile wzrośnie wartość jeśli wzrośnie o 1",
+          "c": "jaka jest wartość jeśli jest równy"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Rozważmy eksperyment, w którym badana jest liczba niedopełnionych puszek w zależności od automatu napełniającego (jest 6 automatów). Eksperymentator zauważył, że z upływem czasu ilość napoju w puszce maleje, niezależnie od tego, który automat je napełnia. Zatem założenie o normalności rozkładu liczby niedopełnionych puszek nie ma sensu. Którego testu użyć do sprawdzenia, czy wybór automatu ma wpływ na liczbę niedopełnionych puszek?",
+        "options": {
+          "a": "testu Wilcoxona",
+          "b": "H Kruskala-Wallisa",
+          "c": "ANOVA"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Funkcji chisq.test do testowania",
+        "options": {
+          "a": "hipotezy o dopasowaniu rozkładu liczebności do zadanego wzorca",
+          "b": "hipotezy o niezależności zmiennych losowych (tablica kontyngencji)",
+          "c": "hipotezy o normalności rozkładu jeśli próba jest mała"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Do weryfikacji hipotezy o dwóch średnich populacyjnych",
+        "options": {
+          "a": "funkcji zsum.test jeśli próby są duże i pochodzą z rozkładu innego niż normalny",
+          "b": "funkcji t.test jeśli próby pochodzą z rozkładu normalnego",
+          "c": "funkcji var.test"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Załóżmy, że po przeprowadzeniu analiza wariancji hipoteza zerowa o równości kilku średnich populacyjnych została odrzucona. Wówczas interesujące jest zazwyczaj wyznaczenie grup jednorodnych. tego wykorzystując",
+        "options": {
+          "a": "test najmniejszych istotnych różnic (LSD) zaproponowany przez Fishera",
+          "b": "przedział ufności dla ilorazu wariancji populacyjnych (funkcja var.test)",
+          "c": "test Tukeya uczciwych istotnych różnic ( funkcja TukeyHSD)"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Funkcja gęstości prawdopodobieństwa zmiennej losowej jest",
+        "options": {
+          "a": "dowolną funkcją przyjmującą wartości z przedziału od 0 do 1",
+          "b": "dowolną funkcją ciągłą taką, że pole obszaru między funkcją gęstości a osią OX jest równe 1",
+          "c": "dowolną nieujemną funkcją taką, że pole obszaru między funkcją gęstości a osią OX jest równe 1"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jeżeli jest próbą z rozkładu normalnego ze średnią i odchyleniem standardowym , to suma",
+        "options": {
+          "a": "ma rozkład",
+          "b": "ma asymptotyczny rozkład",
+          "c": "ma asymptotyczny rozkład"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Liczba przedziałów w szeregu rozdzielczym",
+        "options": {
+          "a": "nie zależy od wielkości zbioru danych (n)",
+          "b": "jest zawsze równa pierwiastkowi z liczby obserwacji",
+          "c": "zależy od wielkości zbioru danych (n)"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Błąd I-go rodzaju popełniamy, gdy",
+        "options": {
+          "a": "fałszywa hipoteza zerowa zostanie odrzucona",
+          "b": "nie odrzucimy prawdziwej hipotezy zerowej",
+          "c": "odrzucimy prawdziwą hipotezę zerową"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Aby móc przeprowadzić analizę wariancji dla testu dotyczącego równości kilku średnich populacyjnych, następujące założenia muszą być spełnione:",
+        "options": {
+          "a": "normalność rozkładu obserwacji każdego obiektu i równa liczebność prób",
+          "b": "równa liczebność prób i jednorodność wariancji z prób",
+          "c": "normalność rozkładu obserwacji każdego obiektu i jednorodność wariancji populacyjnych"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Niech będzie funkcją gęstości prawdopodobieństwa ciągłej zmiennej losowej i niech będzie jej dystrybuantą. Wówczas nie może być obliczone ze wzoru",
+        "options": {
+          "a": "f(b) - f(a)",
+          "b": "∫ f(x) dx",
+          "c": "F(b) - F(a)"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L<p<U) = 0.95. Wówczas różnica jest",
+        "options": {
+          "a": "długością 95% przedziału ufności dla proporcji populacyjnej",
+          "b": "długością 95% przedziału ufności dla proporcji z próby",
+          "c": "długością 95% przedziału ufności dla średniej populacyjnej"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Niech będzie równaniem prostej regresji, niech będzie próbkowym współczynnikiem korelacji i niech będzie współczynnikiem korelacji dla populacji. Testując istotność regresji hipoteza zerowa przyjmuje postać",
+        "options": {
+          "a": "rXY = 0",
+          "b": "ρXY = rXY",
+          "c": "b1 = 0"
+        },
+        "correct_answer": "c"
+      }
+    ]
+  },
+  {
+    "testName": "test - III",
+    "questions": [
+      {
+        "question": "Które z poniższych nie jest statystyką?",
+        "options": {
+          "a": "iloczyn zmiennych losowych stanowiących próbę",
+          "b": "suma zmiennych losowych stanowiących próbę",
+          "c": "średnia populacyjna"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Rozkład prawdopodobieństwa dyskretnej zmiennej losowej można przedstawić w postaci (CZYTAJ UWAŻNIE!)",
+        "options": {
+          "a": "jako ∫ f(x) dx",
+          "b": "tabeli składającej się z dwóch wierszy, przy czym w pierwszym wierszu wpisane są wartości zmiennej losowej, natomiast w drugim odpowiadające im prawdopodobieństwa",
+          "c": "tabeli składającej się z dwóch wierszy, przy czym wie pierwszym wierszu wpisane są wartości zmiennej losowej, a w drugim częstości ich występowania"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Do weryfikacji hipotezy zerowej mówiącej, że metoda produkcji nie ma wpływu na wielkość produkcji (przy czym dostępne są co najmniej 4 metody produkcji), można wykorzystać analizę wariancji. Hipotezy zerowej nie odrzucimy, gdy",
+        "options": {
+          "a": "wartość statystyki testowej jest niższa od odpowiedniego kwantyla rozkładu t-Studenta",
+          "b": "wartość statystyki testowej jest niższa od odpowiedniego kwantyla rozkładu chi-kwadrat",
+          "c": "wartość statystyki testowej jest niższa od odpowiedniego kwantyla rozkładu F-Snedecora"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Która z poniższych funkcji nie przyda się do testowania normalności rozkładu prawdopodobieństwa?",
+        "options": {
+          "a": "sigma.test",
+          "b": "lillie.test",
+          "c": "shapiro.test"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Do weryfikacji hipotezy o dwóch proporcjach populacyjnych można wykorzystać funkcję",
+        "options": {
+          "a": "t.test",
+          "b": "binom.test",
+          "c": "prop.test"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Notacji H0 : p ≤ 0.9 H1 : p > 0.9 użyjemy do zapisu",
+        "options": {
+          "a": "hipotezy prawostronnej o proporcji populacyjnej",
+          "b": "hipotezy lewostronnej o proporcji z próby",
+          "c": "hipotezy prawostronnej o proporcji z próby"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, ze P(L < < U) = 0.99%. Wówczas, z ufnością 99% przedział pokrywa prawdziwą wartość",
+        "options": {
+          "a": "średniej populacyjnej",
+          "b": "średniej z próby",
+          "c": "poziom unfości"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Testy nieparametryczne bazują na",
+        "options": {
+          "a": "rangach obserwacji",
+          "b": "graficznej prezentacji danych",
+          "c": "statystykach obliczanych na podstawie próby i założeniu o normalności rozkładu obserwacji"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Estymatorów współczynników równania regresji nie wyznaczymy za pomocą",
+        "options": {
+          "a": "metody najmniejszych kwadratów",
+          "b": "funkcji anova(y~x)",
+          "c": "funkcji lm(y~x)"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Trzeci kwartyl, oznaczany zwykle przez Q : (CZYTAJ UWAŻNIE!)",
+        "options": {
+          "a": "oddziela 75% obserwacji wyższych od siebie od 25% obserwacji niższych od siebie",
+          "b": "oddziela 50% obserwacji wyższych od siebie od 50% obserwacji niższych od siebie",
+          "c": "oddziela 25% obserwacji wyższych od siebie od 75% obserwacji niższych od siebie"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Mediana (drugi kwartyl)",
+        "options": {
+          "a": "jest wartością \"środkową\" w zbiorze obserwacji",
+          "b": "występuje najczęściej w zbiorze obserwacji",
+          "c": "oddziela 75% wyższych od siebie wartości od 25% niższych od siebie wartości"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Załóżmy, że pobrane zostały losowo dwie próby z rozkładów normalnych. Do oceny przedziałowej ilorazu wariancji populacyjnych można wykorzystać funkcję",
+        "options": {
+          "a": "t.test",
+          "b": "sigma.test",
+          "c": "var.test"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Hipoteza zerowa nie jest odrzucona, jeżeli",
+        "options": {
+          "a": "poziom istotności przekracza p-value",
+          "b": "testowana wartość parametru populacyjnego należy do odpowiedniego przedziału ufności",
+          "c": "poziom istotności jest niższy niż p-value"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jeśli równanie prostej regresji ma postać , to dodatnia wartość współczynnika regresji informuje",
+        "options": {
+          "a": "o ile wzrośnie wartość jeśli wartość wzrośnie o",
+          "b": "o ile wzrośnie wartość jeśli wzrośnie o 1",
+          "c": "jaka jest wartość jeśli jest równy"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Rozważmy eksperyment, w którym badana jest liczba niedopełnionych puszek w zależności od automatu napełniającego (jest 6 automatów). Eksperymentator zauważył, że z upływem czasu ilość napoju w puszce maleje, niezależnie od tego, który automat je napełnia. Zatem założenie o normalności rozkładu liczby niedopełnionych puszek nie ma sensu. Którego testu użyć do sprawdzenia, czy wybór automatu ma wpływ na liczbę niedopełnionych puszek?",
+        "options": {
+          "a": "H Kruskala-Wallisa",
+          "b": "testu Wilcoxona",
+          "c": "ANOVA"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Niech X będzie dyskretną zmienną losową przyjmującą wartości x , x , x , z prawdopodobieństwami odpowiednio p , p , p przy czym x < x < x oraz p +p +p = 1. Prawdopodobieństwo, że zmienna losowa X przyjmie wartość x jest równe",
+        "options": {
+          "a": "p",
+          "b": "1-p",
+          "c": "0"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Które z poniższych jest statystyką?",
+        "options": {
+          "a": "suma zmiennych losowych stanowiących próbę",
+          "b": "średnia populacyjna",
+          "c": "proporcja populacyjna"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Załóżmy, że po przeprowadzeniu analiza wariancji hipoteza zerowa o równości kilku średnich populacyjnych została odrzucona. Wówczas interesujące jest zazwyczaj wyznaczenie grup jednorodnych. Nie dokonamy tego wykorzystując",
+        "options": {
+          "a": "test Tukeya uczciwych istotnych różnic ( funkcja TukeyHSD)",
+          "b": "przedział ufności dla ilorazu wariancji populacyjnych (funkcja var.test)",
+          "c": "test najmniejszych istotnych różnic (LSD) zaproponowany przez Fishera"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Niech będzie 95% przedziałem ufności dla odchylenia standardowego . Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 95% przedział",
+        "options": {
+          "a": "pokrywa prawdziwą wartość średniej populacyjnej",
+          "b": "pokrywa prawdziwą wartość odchylenia standardowego populacji",
+          "c": "pokrywa prawdziwą wartość odchylenia standardowego z próby"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Testu chi-kwadrat nie użyjemy do testowania",
+        "options": {
+          "a": "równości dwóch proporcji populacyjnych",
+          "b": "normalności rozkładu populacji",
+          "c": "niezależności dwóch zmiennych (tablica kontyngencji)"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < < U) = 0.90. Wówczas różnica",
+        "options": {
+          "a": "jest 90% przedziałem ufności dla wariancji populacyjnej",
+          "b": "jest długością 90% przedziału ufności dla wariancji populacyjnej",
+          "c": "z ufnością 90% pokrywa prawdziwą wartość wariancji populacyjnej"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Załóżmy, że pobrane zostały losowo dwie niezależne próby z rozkładów normalnych. Aby dokonać oceny przedziałowej różnicy średnich populacyjnych należy najpierw sprawdzić czy",
+        "options": {
+          "a": "średnie z próby są równe",
+          "b": "wariancje z próby są równe",
+          "c": "wariancje populacyjne nie różnią się istotnie"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Załóżmy, że kowariancja między dwiema zmiennymi losowymi jest równa -0.9. Oznacza to, że",
+        "options": {
+          "a": "kowariancja nie może być ujemna",
+          "b": "spadek wartości jednej zmiennej losowej powoduje wzrost wartości drugiej zmiennej losowej",
+          "c": "istnieje bardzo silny związek liniowy między zmiennymi losowymi"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Istotność testu, zwykle oznaczana przez , to",
+        "options": {
+          "a": "prawdopodobieństwo popełnienia błędu I-go rodzaju",
+          "b": "prawdopodobieństwo popełnienia błędu II-go rodzaju",
+          "c": "poziom ufności"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Moda (dominanta)",
+        "options": {
+          "a": "oddziela 75% obserwacji większych od siebie od 25% obserwacji mniejszych od siebie",
+          "b": "występuje najczęściej w zbiorze obserwacji",
+          "c": "jest wartością \"środkową\" w zbiorze obserwacji"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Analiza wariancji (ANOVA) służy do testowania hipotezy zerowej o równości",
+        "options": {
+          "a": "wariancji kilku populacji",
+          "b": "proporcji kilku populacji",
+          "c": "średnich kilku populacji"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Zbiór wartości, który z prawdopodobieństwem pokrywa prawdziwą wartość nieznanego parametru populacji to",
+        "options": {
+          "a": "obszar krytyczny",
+          "b": "poziom ufności",
+          "c": "przedział ufności"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Hipoteza postaci dotyczy testowania",
+        "options": {
+          "a": "poziomu istotności",
+          "b": "wariancji populacyjnej",
+          "c": "wariancji z próby"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Funkcja gęstości prawdopodobieństwa ciągłej zmiennej losowej jest",
+        "options": {
+          "a": "dowolną nieujemną funkcją taką, że pole obszaru między funkcją gęstości a osią OX jest równe 1",
+          "b": "dowolną funkcją ciągłą taką, że pole obszaru między funkcją gęstości a osią OX jest równe 1",
+          "c": "dowolną funkcją przyjmującą wartości z przedziału od 0 do 1"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Do weryfikacji hipotezy o dwóch średnich populacyjnych nie użyjemy",
+        "options": {
+          "a": "funkcji zsum.test jeśli próby są duże i pochodzą z rozkładu innego niż normalny",
+          "b": "funkcji var.test",
+          "c": "funkcji t.test jeśli próby pochodzą z rozkładu normalnego"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Załóżmy, że interesuje nas porównanie rozkładu szybkości rozwiązywania 4 zadań, przy czym każde zadanie rozwiązywane jest przez każdego studenta w losowej kolejności. Którego testu użyjemy?",
+        "options": {
+          "a": "testu Friedmana",
+          "b": "testu Spearmana",
+          "c": "testu H Kruskala-Wallisa"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Która z poniższych funkcji przeznaczona jest do testowania hipotezy o dopasowaniu rozkładu liczebności do zadanego wzorca?",
+        "options": {
+          "a": "chisq.test",
+          "b": "lillie.test",
+          "c": "shapiro.test"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Jeżeli jest dużą próbą z rozkładu (niekoniecznie normalnego) z wartością oczekiwaną i odchyleniem standardowym , to suma ma asymptotyczny rozkład",
+        "options": {
+          "a": "N(μ, σ/ ) n",
+          "b": "N(n ⋅ μ, n ⋅ σ)",
+          "c": "N(0, 1)"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Która z wielkości nie mierzy zróżnicowania?",
+        "options": {
+          "a": "rozstęp",
+          "b": "moda",
+          "c": "wariancja"
+        },
+        "correct_answer": "b"
+      }
+    ]
+  },
+  {
+    "testName": "test - II",
+    "questions": [
+      {
+        "question": "Próba",
+        "options": {
+          "a": "jest losowa, jeśli zawiera co najwyżej 30 obserwacji",
+          "b": "jest podzbiorem populacji",
+          "c": "zawiera co najmniej 30 obserwacji"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, ze P(L < < U) = 0.99%. Wówczas, z ufnością 99% przedział pokrywa prawdziwą wartość",
+        "options": {
+          "a": "poziom unfości",
+          "b": "średniej z próby",
+          "c": "średniej populacyjnej"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Hipoteza postaci dotyczy testowania",
+        "options": {
+          "a": "wariancji z próby",
+          "b": "wariancji populacyjnej",
+          "c": "poziomu istotności"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Z wykresu pudełkowego nie odczytamy wartości:",
+        "options": {
+          "a": "rozstępu, wariancji i pierwszego kwartyla",
+          "b": "rozstępu, minimum i trzeciego kwartyla",
+          "c": "minimum, rozstępu i rozstępu międzykwartylowego"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Niech będzie równaniem prostej regresji i niech będzie współczynnikiem korelacji dla populacji. Testując hipotezę o istotności regresji hipoteza alternatywna przyjmuje postać",
+        "options": {
+          "a": "ρXY = 0",
+          "b": "b1 ≠ 0",
+          "c": "b0 ≠ 0"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Funkcji chisq.test nie użyjemy do testowania",
+        "options": {
+          "a": "hipotezy o dopasowaniu rozkładu liczebności do zadanego wzorca",
+          "b": "hipotezy o normalności rozkładu jeśli próba jest mała",
+          "c": "hipotezy o niezależności zmiennych losowych (tablica kontyngencji)"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Niech X będzie dyskretną zmienną losową przyjmującą wartości x , x , x , z prawdopodobieństwami odpowiednio p , p , p przy czym x < x < x oraz p +p +p = 1. Prawdopodobieństwo, że zmienna losowa X przyjmie wartość x jest równe",
+        "options": {
+          "a": "0",
+          "b": "p",
+          "c": "1-p"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Do oceny przedziałowej różnicy proporcji populacyjnych można wykorzystać funkcję",
+        "options": {
+          "a": "prop.test",
+          "b": "var.test",
+          "c": "binom.test"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Analiza wariancji (ANOVA) służy do testowania hipotezy o równości",
+        "options": {
+          "a": "kilku wariancji populacyjnych",
+          "b": "kilku średnich z próby",
+          "c": "kilku średnich populacyjnych"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Załóżmy, że interesuje nas porównanie rozkładu szybkości rozwiązywania 4 zadań, przy czym każde zadanie rozwiązywane jest przez każdego studenta w losowej kolejności. Którego testu użyjemy?",
+        "options": {
+          "a": "testu Friedmana",
+          "b": "testu H Kruskala-Wallisa",
+          "c": "testu Spearmana"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Która z poniższych funkcji nie przyda się do testowania normalności rozkładu prawdopodobieństwa?",
+        "options": {
+          "a": "sigma.test",
+          "b": "shapiro.test",
+          "c": "lillie.test"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Błąd I-go rodzaju popełniamy, gdy",
+        "options": {
+          "a": "nie odrzucimy prawdziwej hipotezy zerowej",
+          "b": "odrzucimy prawdziwą hipotezę zerową",
+          "c": "fałszywa hipoteza zerowa zostanie odrzucona"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Niech będzie funkcją gęstości prawdopodobieństwa ciągłej zmiennej losowej i niech będzie jej dystrybuantą. Wówczas nie może być obliczone ze wzoru",
+        "options": {
+          "a": "∫ f(x) dx",
+          "b": "F(b) − F(a)",
+          "c": "f(b) − f(a)"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Załóżmy, że pobrana została -elementowa próba z rozkładu normalnego ze znanym odchyleniem standardowym . Do oceny przedziałowej średniej populacyjnej możemy wykorzystać funkcję",
+        "options": {
+          "a": "zsum.test wykorzystującą kwantyle rozkładu",
+          "b": "z.test wykorzystującą kwantyle rozkładu",
+          "c": "t.test wykorzystującą kwantyle rozkładu t-Studenta z stopniami swobody"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jeżeli jest próbą z rozkładu normalnego ze średnią i odchyleniem standardowym , to suma",
+        "options": {
+          "a": "ma rozkład",
+          "b": "ma asymptotyczny rozkład",
+          "c": "ma asymptotyczny rozkład"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Rozważmy eksperyment, w którym badana jest liczba niedopełnionych puszek w zależności od automatu napełniającego (jest 6 automatów). Eksperymentator zauważył, że z upływem czasu ilość napoju w puszce maleje, niezależnie od tego, który automat je napełnia. Zatem założenie o normalności rozkładu liczby niedopełnionych puszek nie ma sensu. Którego testu użyć do sprawdzenia, czy wybór automatu ma wpływ na liczbę niedopełnionych puszek?",
+        "options": {
+          "a": "ANOVA",
+          "b": "H Kruskala-Wallisa",
+          "c": "testu Wilcoxona"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jeśli równanie prostej regresji ma postać , to ujemna wartość współczynnika regresji informuje",
+        "options": {
+          "a": "o ile wzrośnie wartość jeśli wartość zmaleje o",
+          "b": "o ile zmaleje wartość jeśli wartość wzrośnie o 1",
+          "c": "jaka jest wartość dla równego"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Załóżmy, że pobrane zostały losowo dwie próby z rozkładów normalnych. Do oceny przedziałowej ilorazu wariancji populacyjnych można wykorzystać funkcję",
+        "options": {
+          "a": "t.test",
+          "b": "var.test",
+          "c": "sigma.test"
+        },
+        "correct_answer": "b"
+      }
+    ]
+  },
+  {
+    "testName": "test - I",
+    "questions": [
+      {
+        "question": "Testy nieparametryczne bazują na",
+        "options": {
+          "a": "rangach obserwacji",
+          "b": "graficznej prezentacji danych",
+          "c": "statystykach obliczanych na podstawie próby i założeniu o normalności rozkładu obserwacji"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Rozkład prawdopodobieństwa dyskretnej zmiennej losowej można przedstawić w postaci (CZYTAJ UWAŻNIE!)",
+        "options": {
+          "a": "jako ∫ f(x) dx",
+          "b": "tabeli składającej się z dwóch wierszy, przy czym wie pierwszym wierszu wpisane są wartości zmiennej losowej, a w drugim częstości ich występowania",
+          "c": "tabeli składającej się z dwóch wierszy, przy czym w pierwszym wierszu wpisane są wartości zmiennej losowej, natomiast w drugim odpowiadające im prawdopodobieństwa"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jeżeli jest dużą próbą z rozkładu (niekoniecznie normalnego) z wartością oczekiwaną i odchyleniem standardowym , to suma ma asymptotyczny rozkład",
+        "options": {
+          "a": "N(n ⋅ μ, n ⋅ σ)",
+          "b": "N(μ, σ/ n)",
+          "c": "N(0, 1)"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Testu chi-kwadrat nie użyjemy do testowania",
+        "options": {
+          "a": "równości dwóch proporcji populacyjnych",
+          "b": "normalności rozkładu populacji",
+          "c": "niezależności dwóch zmiennych (tablica kontyngencji)"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Aby móc przeprowadzić analizę wariancji dla testu dotyczącego równości kilku średnich populacyjnych, następujące założenia muszą być spełnione:",
+        "options": {
+          "a": "normalność rozkładu obserwacji każdego obiektu i równa liczebność prób",
+          "b": "normalność rozkładu obserwacji każdego obiektu i jednorodność wariancji populacyjnych",
+          "c": "równa liczebność prób i jednorodność wariancji z prób"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jedną z miar zróżnicowania jest",
+        "options": {
+          "a": "kwantyl dowolnego rzędu",
+          "b": "mediana",
+          "c": "odchylenie standardowe"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Hipoteza zerowa jest odrzucana, gdy",
+        "options": {
+          "a": "wartość statystyki testowej należy do obszaru krytycznego",
+          "b": "wartość statystyki testowej należy do przedziału ufności",
+          "c": "poziom istotności jest niższy niż p-value"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Do weryfikacji hipotezy o dwóch proporcjach populacyjnych można wykorzystać funkcję",
+        "options": {
+          "a": "t.test",
+          "b": "binom.test",
+          "c": "prop.test"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Niech będzie 95% przedziałem ufności dla odchylenia standardowego . Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 95% przedział",
+        "options": {
+          "a": "pokrywa prawdziwą wartość średniej populacyjnej",
+          "b": "pokrywa prawdziwą wartość odchylenia standardowego populacji",
+          "c": "pokrywa prawdziwą wartość odchylenia standardowego z próby"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Dodatnia wartość kowariancji między zmiennymi i oznacza, że",
+        "options": {
+          "a": "jeżeli wartość rośnie, to rośnie również wartość",
+          "b": "wartość rośnie o wartość kowariancji gdy rośnie o 1",
+          "c": "jeśli wartość rośnie, to wartość maleje"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Notacji użyjemy do zapisu",
+        "options": {
+          "a": "hipotezy prawostronnej o średniej populacyjnej",
+          "b": "hipotezy lewostronnej o średniej populacyjnej",
+          "c": "hipotezy lewostronnej o średniej z próby"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jeżeli jest próbą z rozkładu normalnego z wartością oczekiwaną i odchyleniem standardowym , to średnia",
+        "options": {
+          "a": "ma rozkład",
+          "b": "ma rozkład",
+          "c": "ma asymptotyczny rozkład"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jeśli równanie prostej regresji ma postać , to ujemna wartość współczynnika regresji informuje",
+        "options": {
+          "a": "o ile wzrośnie wartość jeśli wartość zmaleje o",
+          "b": "o ile zmaleje wartość jeśli wartość wzrośnie o 1",
+          "c": "jaka jest wartość dla równego"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Niech będzie 98% przedziałem ufności dla . Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 98% przedział",
+        "options": {
+          "a": "pokrywa prawdziwą wartość średniej z próby",
+          "b": "pokrywa prawdziwą wartość średniej populacyjnej",
+          "c": "pokrywa prawdziwą wartość proporcji populacyjnej"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Która z poniższych funkcji przeznaczona jest do testowania hipotezy o dopasowaniu rozkładu liczebności do zadanego wzorca?",
+        "options": {
+          "a": "lillie.test",
+          "b": "shapiro.test",
+          "c": "chisq.test"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Trzeci kwartyl, oznaczany zwykle przez Q : (CZYTAJ UWAŻNIE!)",
+        "options": {
+          "a": "oddziela 25% obserwacji wyższych od siebie od 75% obserwacji niższych od siebie",
+          "b": "oddziela 50% obserwacji wyższych od siebie od 50% obserwacji niższych od siebie",
+          "c": "oddziela 75% obserwacji wyższych od siebie od 25% obserwacji niższych od siebie"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Załóżmy, że interesuje nas hipoteza, że kolor samochodu pewnej marki i modelu ma wpływ na średnią sprzedaż (liczba kolorów jest większa niż 2). Wówczas nie będziemy",
+        "options": {
+          "a": "testować hipotezy zerowej o równości średnich z próby",
+          "b": "testować hipotezy zerowej o równości średnich populacyjnych",
+          "c": "przeprowadzać analizy wariancji"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Istotność testu, zwykle oznaczana przez , to",
+        "options": {
+          "a": "prawdopodobieństwo popełnienia błędu I-go rodzaju",
+          "b": "prawdopodobieństwo popełnienia błędu II-go rodzaju",
+          "c": "poziom ufności"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Ujemna wartość współczynnika korelacji między zmiennymi i oznacza, że",
+        "options": {
+          "a": "współczynnik korelacji nie może być ujemny",
+          "b": "wartość maleje o wartość współczynnika korelacji jeżeli rośnie o 1",
+          "c": "jeżeli wartość rośnie, to wartość maleje"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Załóżmy, że pobrane zostały losowo dwie niezależne próby z rozkładów normalnych. Aby dokonać oceny przedziałowej różnicy średnich populacyjnych należy najpierw sprawdzić czy",
+        "options": {
+          "a": "średnie z próby są równe",
+          "b": "wariancje populacyjne nie różnią się istotnie",
+          "c": "wariancje z próby są równe"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Niech X będzie dyskretną zmienną losową przyjmującą wartości x , x , x , z prawdopodobieństwami odpowiednio p , p , p przy czym x < x < x oraz p +p +p = 1. Prawdopodobieństwo, że zmienna losowa X przyjmie wartość x jest równe",
+        "options": {
+          "a": "p",
+          "b": "0",
+          "c": "1-p"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < < U) = 0.90. Wówczas różnica",
+        "options": {
+          "a": "jest 90% przedziałem ufności dla wariancji populacyjnej",
+          "b": "jest długością 90% przedziału ufności dla wariancji populacyjnej",
+          "c": "z ufnością 90% pokrywa prawdziwą wartość wariancji populacyjnej"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Błąd I-go rodzaju popełniamy, gdy",
+        "options": {
+          "a": "fałszywa hipoteza zerowa zostanie odrzucona",
+          "b": "nie odrzucimy prawdziwej hipotezy zerowej",
+          "c": "odrzucimy prawdziwą hipotezę zerową"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Próba",
+        "options": {
+          "a": "jest podzbiorem populacji",
+          "b": "jest losowa, jeśli zawiera co najwyżej 30 obserwacji",
+          "c": "zawiera co najmniej 30 obserwacji"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Załóżmy, że interesuje nas sprawdzenie, czy kolor samochodu ma wpływ na średnią sprzedaż samochodów pewnej marki i modelu (przy czym dostępne są co najmniej 3 kolory). Wówczas najrozsądniejsze jest",
+        "options": {
+          "a": "przeprowadzenie testu chi-kwadrat dotyczący równości dwóch wariancji populacyjnych",
+          "b": "przeprowadzenie analizy wariancji",
+          "c": "wykorzystanie funkcji t.test dla porównania dwóch średnich populacyjnych"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Rozważmy eksperyment, w którym dwóch ekspertów sporządza ranking 10 tancerzy (nr 1 oznacza najlepszego tancerza, nr 10 najsłabszego). Jakiego testu użyjemy do sprawdzenia, czy eksperci różnią się istotnie pod względem opinii o tancerzach?",
+        "options": {
+          "a": "testu Wilcoxona",
+          "b": "testu Spearmana",
+          "c": "testu Pearsona"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Załóżmy, że pobrane zostały losowo dwie próby z rozkładów normalnych. Do testowania hipotezy o ilorazie wariancji populacyjnych można wykorzystać funkcję",
+        "options": {
+          "a": "sigma.test",
+          "b": "zsum.test",
+          "c": "var.test"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Do testowania hipotezy o normalności rozkładu prawdopodobieństwa populacji możemy użyć",
+        "options": {
+          "a": "funkcji chisq.test (po odpowiednim stransformowaniu danych)",
+          "b": "funkcji zsum.test jeśli próba jest duża",
+          "c": "funkcji z.test jeśli odchylenie standardowe populacji jest znane"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Estymatorów współczynników równania regresji nie wyznaczymy za pomocą",
+        "options": {
+          "a": "funkcji lm(y~x)",
+          "b": "funkcji anova(y~x)",
+          "c": "metody najmniejszych kwadratów"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Konstruując szereg rozdzielczy lub histogram należy zwrócić uwagę, aby",
+        "options": {
+          "a": "przedziały były rozłączne, przy czym mogą pojawić się przedziały o zerowej liczebności",
+          "b": "przedziały pokryły cały zbiór wartości, przy czym mogą pojawić się przedziały o zerowej liczebności",
+          "c": "przedziały pokryły cały zbiór wartości i nie było przedziałów pustych"
+        },
+        "correct_answer": "a"
+      }
+    ]
+  }
+]

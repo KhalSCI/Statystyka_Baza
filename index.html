@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaukaStat - Quiz Statystyki</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Start Screen -->
+        <div id="startScreen" class="screen active">
+            <div class="logo">
+                <h1>📊 NaukaStat</h1>
+                <p>Gra w statystykę</p>
+            </div>
+            <div class="game-info">
+                <div class="info-card">
+                    <h3>🎯 Zasady Gry</h3>
+                    <ul>
+                        <li>10 losowych pytań</li>
+                        <li>Natychmiastowa informacja zwrotna</li>
+                        <li>System punktowy</li>
+                        <li>Osiągnięcia do odblokowania</li>
+                    </ul>
+                </div>
+            </div>
+            <button id="startButton" class="btn btn-primary">🚀 Rozpocznij Quiz</button>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Najlepszy wynik:</span>
+                    <span id="bestScore" class="stat-value">0/10</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Rozegrane gry:</span>
+                    <span id="gamesPlayed" class="stat-value">0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="gameScreen" class="screen">
+            <div class="game-header">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                    <span id="questionCounter" class="question-counter">1/10</span>
+                </div>
+                <div class="score-container">
+                    <span class="score-label">Punkty:</span>
+                    <span id="currentScore" class="score-value">0</span>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div id="questionText" class="question-text"></div>
+                <div id="optionsContainer" class="options-container"></div>
+            </div>
+
+            <div id="feedback" class="feedback hidden">
+                <div class="feedback-content">
+                    <div id="feedbackIcon" class="feedback-icon"></div>
+                    <div id="feedbackText" class="feedback-text"></div>
+                    <button id="nextButton" class="btn btn-secondary">Następne pytanie</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="resultsScreen" class="screen">
+            <div class="results-container">
+                <div id="resultsIcon" class="results-icon"></div>
+                <h2 id="resultsTitle" class="results-title"></h2>
+                <div id="finalScore" class="final-score"></div>
+                
+                <div class="performance-breakdown">
+                    <h3>📈 Analiza wyników</h3>
+                    <div class="breakdown-stats">
+                        <div class="breakdown-item">
+                            <span class="breakdown-label">Poprawne odpowiedzi:</span>
+                            <span id="correctAnswers" class="breakdown-value">0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label">Błędne odpowiedzi:</span>
+                            <span id="wrongAnswers" class="breakdown-value">0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label">Procent poprawności:</span>
+                            <span id="accuracy" class="breakdown-value">0%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="achievements" class="achievements">
+                    <h3>🏆 Osiągnięcia</h3>
+                    <div id="achievementsList" class="achievements-list"></div>
+                </div>
+
+                <div class="results-actions">
+                    <button id="playAgainButton" class="btn btn-primary">🔄 Zagraj ponownie</button>
+                    <button id="backToMenuButton" class="btn btn-secondary">🏠 Menu główne</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
