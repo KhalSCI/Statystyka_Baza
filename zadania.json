@@ -681,7 +681,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Istotność testu, zwykle oznaczana przez , to",
+        "question": "Istotność testu, zwykle oznaczana przez $$\\alfa$$ , to",
         "options": {
           "a": "prawdopodobieństwo popełnienia błędu I-go rodzaju",
           "b": "prawdopodobieństwo popełnienia błędu II-go rodzaju",
@@ -893,11 +893,11 @@
         "correct_answer": "c"
       },
       {
-        "question": "Załóżmy, że pobrana została -elementowa próba z rozkładu normalnego ze znanym odchyleniem standardowym . Do oceny przedziałowej średniej populacyjnej możemy wykorzystać funkcję",
+        "question": "Załóżmy, że pobrana została n-elementowa próba z rozkładu normalnego ze znanym odchyleniem standardowym σ . Do oceny przedziałowej średniej populacyjnej możemy wykorzystać funkcję",
         "options": {
-          "a": "zsum.test wykorzystującą kwantyle rozkładu",
-          "b": "z.test wykorzystującą kwantyle rozkładu",
-          "c": "t.test wykorzystującą kwantyle rozkładu t-Studenta z stopniami swobody"
+          "a": "zsum.test wykorzystującą kwantyle rozkładu N(0,1)",
+          "b": "z.test wykorzystującą kwantyle rozkładu N(0,1)",
+          "c": "t.test wykorzystującą kwantyle rozkładu t-Studenta z n-1 stopniami swobody"
         },
         "correct_answer": "b"
       },
@@ -1078,7 +1078,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Istotność testu, zwykle oznaczana przez , to",
+        "question": "Istotność testu, zwykle oznaczana przez $$\\alfa$$ , to",
         "options": {
           "a": "prawdopodobieństwo popełnienia błędu I-go rodzaju",
           "b": "prawdopodobieństwo popełnienia błędu II-go rodzaju",
