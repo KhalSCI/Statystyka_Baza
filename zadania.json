@@ -902,15 +902,6 @@
         "correct_answer": "b"
       },
       {
-        "question": "Jeżeli X{1},...,X{n} jest próbą z rozkładu normalnego ze średnią u i odchyleniem standardowym o , to suma",
-        "options": {
-          "a": "ma rozkład N(u,o/√n)",
-          "b": "ma asymptotyczny rozkład N(n ⋅ u, √n ⋅ o)",
-          "c": "ma asymptotyczny rozkład N(u,o/√n)"
-        },
-        "correct_answer": "a"
-      },
-      {
         "question": "Rozważmy eksperyment, w którym badana jest liczba niedopełnionych puszek w zależności od automatu napełniającego (jest 6 automatów). Eksperymentator zauważył, że z upływem czasu ilość napoju w puszce maleje, niezależnie od tego, który automat je napełnia. Zatem założenie o normalności rozkładu liczby niedopełnionych puszek nie ma sensu. Którego testu użyć do sprawdzenia, czy wybór automatu ma wpływ na liczbę niedopełnionych puszek?",
         "options": {
           "a": "ANOVA",
@@ -1033,11 +1024,11 @@
         "correct_answer": "b"
       },
       {
-        "question": "Jeżeli jest próbą z rozkładu normalnego z wartością oczekiwaną i odchyleniem standardowym , to średnia",
+        "question": "Jeżeli $$X_{1},...,X_{n}$$ jest próbą z rozkładu normalnego z wartością oczekiwaną µ i odchyleniem standardowym σ, to średnia 1/n(X{1} + ... + X{n})",
         "options": {
-          "a": "ma rozkład",
-          "b": "ma rozkład",
-          "c": "ma asymptotyczny rozkład"
+          "a": "ma rozkład N(0,1)",
+          "b": "ma rozkład N(μ, σ/ √n)",
+          "c": "ma asymptotyczny rozkład N(μ, σ/ √n)"
         },
         "correct_answer": "b"
       },
