@@ -84,7 +84,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Niech L i U będą funkcjami zmiennych losowych stanowiących próbę takimi, że $P(L<p<U)=0.95$. Wówczas różnica $(U-L)$ jest",
+        "question": "Niech L i U będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < p < U) = 0.95. Wówczas różnica (U-L) jest",
         "options": {
           "a": "długością 95% przedziału ufności dla proporcji z próby",
           "b": "długością 95% przedziału ufności dla proporcji populacyjnej",
@@ -397,7 +397,7 @@
         "correct_answer": "c"
       },
       {
-        "question": "Załóżmy, że po przeprowadzeniu analiza wariancji hipoteza zerowa o równości kilku średnich populacyjnych została odrzucona. Wówczas interesujące jest zazwyczaj wyznaczenie grup jednorodnych. tego wykorzystując",
+        "question": "Załóżmy, że po przeprowadzeniu analiza wariancji hipoteza zerowa o równości kilku średnich populacyjnych została odrzucona. Wówczas interesujące jest zazwyczaj wyznaczenie grup jednorodnych. Nie dokonamy tego wykorzystując",
         "options": {
           "a": "test najmniejszych istotnych różnic (LSD) zaproponowany przez Fishera",
           "b": "przedział ufności dla ilorazu wariancji populacyjnych (funkcja var.test)",
@@ -995,15 +995,6 @@
           "c": "prop.test"
         },
         "correct_answer": "c"
-      },
-      {
-        "question": "Niech będzie 95% przedziałem ufności dla odchylenia standardowego . Wówczas, po wstawieniu obserwacji do odpowiedniego wzoru, z ufnością 95% przedział",
-        "options": {
-          "a": "pokrywa prawdziwą wartość średniej populacyjnej",
-          "b": "pokrywa prawdziwą wartość odchylenia standardowego populacji",
-          "c": "pokrywa prawdziwą wartość odchylenia standardowego z próby"
-        },
-        "correct_answer": "b"
       },
       {
         "question": "Dodatnia wartość kowariancji między zmiennymi X i Y oznacza, że",
