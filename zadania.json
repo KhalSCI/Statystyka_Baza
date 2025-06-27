@@ -379,7 +379,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Funkcji chisq.test do testowania",
+        "question": "Funkcji chisq.test nie użyjemy do testowania",
         "options": {
           "a": "hipotezy o dopasowaniu rozkładu liczebności do zadanego wzorca",
           "b": "hipotezy o niezależności zmiennych losowych (tablica kontyngencji)",
@@ -388,7 +388,7 @@
         "correct_answer": "c"
       },
       {
-        "question": "Do weryfikacji hipotezy o dwóch średnich populacyjnych",
+        "question": "Do weryfikacji hipotezy o dwóch średnich populacyjnych nie użyjemy",
         "options": {
           "a": "funkcji zsum.test jeśli próby są duże i pochodzą z rozkładu innego niż normalny",
           "b": "funkcji t.test jeśli próby pochodzą z rozkładu normalnego",
@@ -442,7 +442,7 @@
         "correct_answer": "c"
       },
       {
-        "question": "Niech będzie funkcją gęstości prawdopodobieństwa ciągłej zmiennej losowej i niech będzie jej dystrybuantą. Wówczas nie może być obliczone ze wzoru",
+        "question": "Niech f(x) będzie funkcją gęstości prawdopodobieństwa ciągłej zmiennej losowej X i niech F(x) będzie jej dystrybuantą. Wówczas P(a < X < b) nie może być obliczone ze wzoru",
         "options": {
           "a": "f(b) - f(a)",
           "b": "∫ f(x) dx",
@@ -451,7 +451,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L<p<U) = 0.95. Wówczas różnica jest",
+        "question": "Niech L i U będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < p < U) = 0.95. Wówczas różnica (U - L) jest",
         "options": {
           "a": "długością 95% przedziału ufności dla proporcji populacyjnej",
           "b": "długością 95% przedziału ufności dla proporcji z próby",
@@ -460,7 +460,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Niech będzie równaniem prostej regresji, niech będzie próbkowym współczynnikiem korelacji i niech będzie współczynnikiem korelacji dla populacji. Testując istotność regresji hipoteza zerowa przyjmuje postać",
+        "question": "Niech b0 + b1x będzie równaniem prostej regresji, niech $$r_{xy}$$ będzie próbkowym współczynnikiem korelacji i niech $$p_{xy}$$ będzie współczynnikiem korelacji dla populacji. Testując istotność regresji hipoteza zerowa przyjmuje postać",
         "options": {
           "a": "rXY = 0",
           "b": "ρXY = rXY",
@@ -654,7 +654,7 @@
         "correct_answer": "a"
       },
       {
-        "question": "Niech L i U będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L <σ^2< U) = 0.90. Wówczas różnica",
+        "question": "Niech L i U będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L <σ^2< U) = 0.90. Wówczas różnica (U-L)",
         "options": {
           "a": "jest 90% przedziałem ufności dla wariancji populacyjnej",
           "b": "jest długością 90% przedziału ufności dla wariancji populacyjnej",
@@ -717,7 +717,7 @@
         "correct_answer": "c"
       },
       {
-        "question": "Hipoteza postaci dotyczy testowania",
+        "question": "Hipoteza postaci H0 : σ2 = 0.9 H1 : σ2 ≠ 0.9 dotyczy testowania",
         "options": {
           "a": "poziomu istotności",
           "b": "wariancji populacyjnej",
@@ -803,7 +803,7 @@
         "correct_answer": "c"
       },
       {
-        "question": "Hipoteza postaci dotyczy testowania",
+        "question": "Hipoteza postaci H0 : σ2 = 0.9 H1 : σ2 ≠ 0.9 dotyczy testowania ",
         "options": {
           "a": "wariancji z próby",
           "b": "wariancji populacyjnej",
@@ -884,7 +884,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Niech f(x) będzie funkcją gęstości prawdopodobieństwa ciągłej zmiennej losowej X i niech będzie jej dystrybuantą F(x). Wówczas P(a<X<b) nie może być obliczone ze wzoru",
+        "question": "Niech f(x) będzie funkcją gęstości prawdopodobieństwa ciągłej zmiennej losowej X i niech będzie jej dystrybuantą F(x). Wówczas P(a < X < b) nie może być obliczone ze wzoru",
         "options": {
           "a": "∫ f(x) dx",
           "b": "F(b) − F(a)",
@@ -952,9 +952,9 @@
         "correct_answer": "c"
       },
       {
-        "question": "Jeżeli jest dużą próbą z rozkładu (niekoniecznie normalnego) z wartością oczekiwaną i odchyleniem standardowym , to suma ma asymptotyczny rozkład",
+        "question": "Jeżeli X{1},...,X{n} jest dużą próbą z rozkładu (niekoniecznie normalnego) z wartością oczekiwaną µ i odchyleniem standardowym σ, to suma ma asymptotyczny rozkład",
         "options": {
-          "a": "N(n ⋅ μ, n ⋅ σ)",
+          "a": "$$N(n \\cdot \\mu, \\sqrt{n} \\cdot \\sigma)$$", 
           "b": "N(μ, σ/ n)",
           "c": "N(0, 1)"
         },
@@ -1015,11 +1015,11 @@
         "correct_answer": "b"
       },
       {
-        "question": "Dodatnia wartość kowariancji między zmiennymi i oznacza, że",
+        "question": "Dodatnia wartość kowariancji między zmiennymi X i Y oznacza, że",
         "options": {
-          "a": "jeżeli wartość rośnie, to rośnie również wartość",
-          "b": "wartość rośnie o wartość kowariancji gdy rośnie o 1",
-          "c": "jeśli wartość rośnie, to wartość maleje"
+          "a": "jeżeli wartość X rośnie, to rośnie również wartość Y",
+          "b": "wartość Y rośnie o wartość kowariancji gdy X rośnie o 1",
+          "c": "jeśli wartość X rośnie, to wartość Y maleje"
         },
         "correct_answer": "a"
       },
@@ -1105,7 +1105,7 @@
         "correct_answer": "b"
       },
       {
-        "question": "Niech i będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < σ^2 < U) = 0.90. Wówczas różnica",
+        "question": "Niech L i U będą funkcjami zmiennych losowych stanowiących próbę takimi, że P(L < σ^2 < U) = 0.90. Wówczas różnica (U - L)",
         "options": {
           "a": "jest 90% przedziałem ufności dla wariancji populacyjnej",
           "b": "jest długością 90% przedziału ufności dla wariancji populacyjnej",
